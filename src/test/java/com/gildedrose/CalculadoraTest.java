@@ -22,7 +22,7 @@ class CalculadoraTest {
 		"2, -3, -1",
 		"0.1, 0.2, 0.3",
 		"1, -0.9, 0.1",
-		"0, 0, 1"
+		"0, 0, 0"
 	})
 	void testSuma(double a, double b, double previsto) {
 		double rslt = calc.suma(a, b);
